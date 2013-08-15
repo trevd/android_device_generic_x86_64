@@ -1,0 +1,27 @@
+A Note to all you forkers
+=========================
+This alone won't make x86_64 Android pop into life. It is one part of the puzzle
+
+
+
+device/generic/x86_64
+=====================
+
+This repository contains a mini device specification which targets the x86_64 platform
+
+
+A Self Deploying Prophecy ( or adding a new target platform) 
+============================================================
+
+You basically need a device specification ( this repo )
+
+The build system needs
+A Target combo file
+AndroidConfig.h 
+Target Arch Varient specification.
+
+These files are installed from this repo when you run envsetup.sh
+vendorsetup.sh takes care of this and it will keep everything together for now
+
+
+
